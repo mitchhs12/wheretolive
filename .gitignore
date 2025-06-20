@@ -1,0 +1,9 @@
+# Environment variables
+.env
+frontend/.env.local
+
+# Data
+data/
+
+# Logs
+logs/
