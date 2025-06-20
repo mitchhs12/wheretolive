@@ -53,6 +53,7 @@ def reset_database_schema():
                 calculated_area NUMERIC,
                 valuation_date DATE,
                 last_updated TIMESTAMP WITH TIME ZONE,
+                district TEXT,
                 geom GEOMETRY(POLYGON, 2193)
             );
             """
